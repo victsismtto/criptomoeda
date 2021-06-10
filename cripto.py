@@ -113,8 +113,7 @@ class Leitura:
             ws= wb.active
 
         wb.save('criptomoedas.xlsx')
-        
-        
+
         
 link = 'https://coinmarketcap.com/pt-br/currencies/'
 
