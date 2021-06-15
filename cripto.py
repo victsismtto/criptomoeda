@@ -40,19 +40,17 @@ class Leitura:
                     linha = int(linha)
                     primeiro_bitcoin = linha
                     linha = str(linha)
-                
+            
             contador_repetido = 0
             linha = int(linha)
             linha = linha + 1
             linha = str(linha)
-
 
         linha = int(linha)
         ultima_linha = linha - 1
         contador = 0
         posicao_bitcoin = 0
         contador_altura = 5
-
 
         while contador_altura <=ultima_linha:
 
@@ -88,7 +86,7 @@ class Leitura:
                 ws['E'+concatenar] = float(quantidade)
 
             else:
-                valor_bitcoin = soup.find('p', class_='sc-10nusm4-0 bspaAT')
+                valor_bitcoin = soup.find('p', class_='esfl2f-0 kqzSsi')
                 valor_bitcoin = valor_bitcoin.next_element
                 valor_bitcoin = valor_bitcoin.split(" ")
                 valor_bitcoin = valor_bitcoin[0]
